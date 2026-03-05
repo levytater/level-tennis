@@ -9,7 +9,7 @@
         "subcategory": "performance",
         "price": 349.99,
         "currency": "CAD",
-        "image_url": "https://images.unsplash.com/photo-1554068865-24cecd4e34c8?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1554068865-24cecd4e34c8?w=400&h=400&fit=crop&q=80",
         "description": "Aggressive power racket for players who strike the ball off the bounce. Features aerodynamic frame with flax fibers for exceptional feel.",
         "specs": {
           "head_size": "98 sq. in.",
@@ -20,7 +20,12 @@
           "beam_width": "21/23/22 mm",
           "string_pattern": "16x20"
         },
-        "grip_sizes": ["L1", "L2", "L3", "L4"],
+        "grip_sizes": [
+          "L1",
+          "L2",
+          "L3",
+          "L4"
+        ],
         "in_stock": true
       },
       {
@@ -29,9 +34,9 @@
         "brand": "Head",
         "category": "rackets",
         "subcategory": "performance",
-        "price": 319.00,
+        "price": 319,
         "currency": "CAD",
-        "image_url": "https://images.unsplash.com/photo-1595435934249-5df7ee86b86d?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1595435934249-5df7ee86b86d?w=400&h=400&fit=crop&q=80",
         "description": "Professional-grade racket for advanced players seeking power and control. Tour-tested technology.",
         "specs": {
           "head_size": "98 sq. in.",
@@ -42,7 +47,12 @@
           "beam_width": "21/23/22 mm",
           "string_pattern": "16x19"
         },
-        "grip_sizes": ["L1", "L2", "L3", "L4"],
+        "grip_sizes": [
+          "L1",
+          "L2",
+          "L3",
+          "L4"
+        ],
         "in_stock": true
       },
       {
@@ -51,9 +61,9 @@
         "brand": "Yonex",
         "category": "rackets",
         "subcategory": "performance",
-        "price": 359.00,
+        "price": 359,
         "currency": "CAD",
-        "image_url": "https://images.unsplash.com/photo-1618083958336-5c6f1b2c3c4c?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop&q=80",
         "description": "Advanced 97-inch frame with latest stabilizing technology. Perfect for control-focused players.",
         "specs": {
           "head_size": "95 sq. in.",
@@ -64,7 +74,12 @@
           "beam_width": "21 mm",
           "string_pattern": "16x20"
         },
-        "grip_sizes": ["L1", "L2", "L3", "L4"],
+        "grip_sizes": [
+          "L1",
+          "L2",
+          "L3",
+          "L4"
+        ],
         "in_stock": true
       },
       {
@@ -75,7 +90,7 @@
         "subcategory": "performance",
         "price": 349.99,
         "currency": "CAD",
-        "image_url": "https://images.unsplash.com/photo-1554131143-e502c6a14614?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1554131143-e502c6a14614?w=400&h=400&fit=crop&q=80",
         "description": "The classic choice for players who demand precision, feel, and control. Tour-level performance.",
         "specs": {
           "head_size": "97 sq. in.",
@@ -86,7 +101,12 @@
           "beam_width": "19/20/19 mm",
           "string_pattern": "16x19"
         },
-        "grip_sizes": ["L1", "L2", "L3", "L4"],
+        "grip_sizes": [
+          "L1",
+          "L2",
+          "L3",
+          "L4"
+        ],
         "in_stock": true
       },
       {
@@ -97,7 +117,7 @@
         "subcategory": "all-court",
         "price": 279.99,
         "currency": "CAD",
-        "image_url": "https://images.unsplash.com/photo-1554147090-e152a6c2e643?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1554147090-e152a6c2e643?w=400&h=400&fit=crop&q=80",
         "description": "Light spin-focused racket designed for modern baseline game. Responsive and stable.",
         "specs": {
           "head_size": "100 sq. in.",
@@ -108,7 +128,11 @@
           "beam_width": "22/23/21 mm",
           "string_pattern": "16x20"
         },
-        "grip_sizes": ["L1", "L2", "L3"],
+        "grip_sizes": [
+          "L1",
+          "L2",
+          "L3"
+        ],
         "in_stock": true
       },
       {
@@ -119,7 +143,7 @@
         "subcategory": "all-court",
         "price": 259.99,
         "currency": "CAD",
-        "image_url": "https://images.unsplash.com/photo-1616177390936-cdca6d61fffa?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1616177390936-cdca6d61fffa?w=400&h=400&fit=crop&q=80",
         "description": "Versatile all-court racket with excellent feel and maneuverability. Great for intermediate players.",
         "specs": {
           "head_size": "100 sq. in.",
@@ -130,7 +154,12 @@
           "beam_width": "22 mm",
           "string_pattern": "16x19"
         },
-        "grip_sizes": ["L1", "L2", "L3", "L4"],
+        "grip_sizes": [
+          "L1",
+          "L2",
+          "L3",
+          "L4"
+        ],
         "in_stock": true
       },
       {
@@ -141,7 +170,7 @@
         "subcategory": "power",
         "price": 299.99,
         "currency": "CAD",
-        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop&q=80",
         "description": "Explosive power with textured string surface. Maximum spin generation for aggressive players.",
         "specs": {
           "head_size": "104 sq. in.",
@@ -152,7 +181,11 @@
           "beam_width": "23/24/23 mm",
           "string_pattern": "16x20"
         },
-        "grip_sizes": ["L1", "L2", "L3"],
+        "grip_sizes": [
+          "L1",
+          "L2",
+          "L3"
+        ],
         "in_stock": true
       },
       {
@@ -163,7 +196,7 @@
         "subcategory": "power",
         "price": 229.99,
         "currency": "CAD",
-        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1554068865-24cecd4e34c8?w=400&h=400&fit=crop&q=80",
         "description": "Forgiving power racket for developing players. Excellent stability and easy-to-use.",
         "specs": {
           "head_size": "102 sq. in.",
@@ -174,7 +207,12 @@
           "beam_width": "23 mm",
           "string_pattern": "16x19"
         },
-        "grip_sizes": ["L0", "L1", "L2", "L3"],
+        "grip_sizes": [
+          "L0",
+          "L1",
+          "L2",
+          "L3"
+        ],
         "in_stock": true
       },
       {
@@ -185,7 +223,7 @@
         "subcategory": "power",
         "price": 289.99,
         "currency": "CAD",
-        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1595435934249-5df7ee86b86d?w=400&h=400&fit=crop&q=80",
         "description": "Big head, maximum power. Ideal for aggressive baseline players seeking extra reach.",
         "specs": {
           "head_size": "102 sq. in.",
@@ -196,7 +234,12 @@
           "beam_width": "24 mm",
           "string_pattern": "16x20"
         },
-        "grip_sizes": ["L1", "L2", "L3", "L4"],
+        "grip_sizes": [
+          "L1",
+          "L2",
+          "L3",
+          "L4"
+        ],
         "in_stock": true
       },
       {
@@ -207,7 +250,7 @@
         "subcategory": "all-court",
         "price": 319.99,
         "currency": "CAD",
-        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop&q=80",
         "description": "Lightweight all-court racket with exceptional maneuverability. Perfect for serve-and-volley players.",
         "specs": {
           "head_size": "100 sq. in.",
@@ -218,7 +261,11 @@
           "beam_width": "21 mm",
           "string_pattern": "16x20"
         },
-        "grip_sizes": ["L1", "L2", "L3"],
+        "grip_sizes": [
+          "L1",
+          "L2",
+          "L3"
+        ],
         "in_stock": true
       }
     ],
@@ -229,10 +276,10 @@
         "brand": "Head",
         "category": "bags",
         "subcategory": "racquet_bag",
-        "price": 139.00,
+        "price": 139,
         "currency": "CAD",
         "color": "White",
-        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop&q=80",
         "description": "Professional tour bag for 12 racquets. Multiple compartments and thermal protection.",
         "capacity": "12 racquets",
         "material": "Polyester with thermal lining",
@@ -244,10 +291,10 @@
         "brand": "Head",
         "category": "bags",
         "subcategory": "racquet_bag",
-        "price": 139.00,
+        "price": 139,
         "currency": "CAD",
         "color": "Blue",
-        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop&q=80",
         "description": "Professional tour bag for 12 racquets. Multiple compartments and thermal protection.",
         "capacity": "12 racquets",
         "material": "Polyester with thermal lining",
@@ -259,10 +306,10 @@
         "brand": "Head",
         "category": "bags",
         "subcategory": "racquet_bag",
-        "price": 129.00,
+        "price": 129,
         "currency": "CAD",
         "color": "Green",
-        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop&q=80",
         "description": "Medium capacity bag for 9 racquets. Lightweight and durable construction.",
         "capacity": "9 racquets",
         "material": "Polyester",
@@ -274,10 +321,10 @@
         "brand": "Head",
         "category": "bags",
         "subcategory": "racquet_bag",
-        "price": 129.00,
+        "price": 129,
         "currency": "CAD",
         "color": "Pink",
-        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop&q=80",
         "description": "Medium capacity bag for 9 racquets. Lightweight and durable construction.",
         "capacity": "9 racquets",
         "material": "Polyester",
@@ -289,10 +336,10 @@
         "brand": "Head",
         "category": "bags",
         "subcategory": "racquet_bag",
-        "price": 119.00,
+        "price": 119,
         "currency": "CAD",
         "color": "Blue",
-        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop&q=80",
         "description": "Compact bag for 6 racquets. Perfect for practice and casual play.",
         "capacity": "6 racquets",
         "material": "Polyester",
@@ -307,7 +354,7 @@
         "price": 109.99,
         "currency": "CAD",
         "color": "Black",
-        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop&q=80",
         "description": "Versatile backpack design with dedicated racquet pocket. Ergonomic straps and waterproof material.",
         "capacity": "2-3 racquets + accessories",
         "material": "Waterproof nylon",
@@ -323,7 +370,7 @@
         "price": 15.99,
         "currency": "CAD",
         "gauge": "17g",
-        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1595435934249-5df7ee86b86d?w=400&h=400&fit=crop&q=80",
         "description": "Premium polyester string offering excellent control and spin. Professional-grade tension.",
         "type": "Polyester",
         "best_for": "aggressive players",
@@ -338,7 +385,7 @@
         "price": 12.99,
         "currency": "CAD",
         "gauge": "16g",
-        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1554068865-24cecd4e34c8?w=400&h=400&fit=crop&q=80",
         "description": "All-around polyester string with good comfort and durability. Great value for recreational players.",
         "type": "Polyester",
         "best_for": "all-court players",
@@ -353,7 +400,7 @@
         "price": 24.99,
         "currency": "CAD",
         "gauge": "16g",
-        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop&q=80",
         "description": "Premium natural gut offering unmatched feel and touch. The professional's choice.",
         "type": "Natural Gut",
         "best_for": "touch-focused players",
@@ -368,7 +415,7 @@
         "price": 13.49,
         "currency": "CAD",
         "gauge": "16g",
-        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1595435934249-5df7ee86b86d?w=400&h=400&fit=crop&q=80",
         "description": "High-performance polyester providing excellent control and durability for the modern game.",
         "type": "Polyester",
         "best_for": "control-oriented players",
@@ -383,7 +430,7 @@
         "price": 11.99,
         "currency": "CAD",
         "gauge": "16g",
-        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1554068865-24cecd4e34c8?w=400&h=400&fit=crop&q=80",
         "description": "Multi-filament synthetic with great comfort and playability. Excellent value string.",
         "type": "Synthetic Gut",
         "best_for": "recreational players",
@@ -398,7 +445,7 @@
         "price": 10.99,
         "currency": "CAD",
         "gauge": "16g",
-        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop&q=80",
         "description": "Classic synthetic gut string with reliable performance and durability. Budget-friendly option.",
         "type": "Synthetic Gut",
         "best_for": "beginner/intermediate players",
@@ -415,7 +462,7 @@
         "price": 8.99,
         "currency": "CAD",
         "quantity": "Single",
-        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1595435934249-5df7ee86b86d?w=400&h=400&fit=crop&q=80",
         "description": "Premium overgrip for enhanced comfort and moisture absorption. Professional players' favorite.",
         "color": "White",
         "material": "Synthetic wrap",
@@ -429,7 +476,7 @@
         "price": 9.49,
         "currency": "CAD",
         "quantity": "Single",
-        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1554068865-24cecd4e34c8?w=400&h=400&fit=crop&q=80",
         "description": "Durable synthetic grip with excellent cushioning and sweat absorption. Tour-tested.",
         "color": "Black",
         "material": "Synthetic wrap",
@@ -443,7 +490,7 @@
         "price": 7.99,
         "currency": "CAD",
         "quantity": "3-pack",
-        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop&q=80",
         "description": "3-pack of lightweight overgrips. Great moisture control and durability. Value pack.",
         "color": "White",
         "material": "Synthetic wrap",
@@ -457,7 +504,7 @@
         "price": 8.49,
         "currency": "CAD",
         "quantity": "3-pack",
-        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1595435934249-5df7ee86b86d?w=400&h=400&fit=crop&q=80",
         "description": "Japanese-made overgrip with superior grip and feel. Excellent moisture absorption.",
         "color": "Black",
         "material": "Synthetic wrap",
@@ -471,7 +518,7 @@
         "price": 8.99,
         "currency": "CAD",
         "quantity": "Single",
-        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1554068865-24cecd4e34c8?w=400&h=400&fit=crop&q=80",
         "description": "Tacky overgrip for players preferring enhanced control and sweat management.",
         "color": "White",
         "material": "Synthetic wrap",
@@ -485,7 +532,7 @@
         "price": 8.49,
         "currency": "CAD",
         "quantity": "3-pack",
-        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop&q=80",
         "description": "Professional tour-grade overgrip in 3-pack. Consistent cushioning and durability.",
         "color": "White",
         "material": "Synthetic wrap",

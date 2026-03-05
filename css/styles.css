@@ -1,19 +1,20 @@
 /* ROOT VARIABLES */
 :root {
-  --primary: #737373;
-  --secondary: #b9e607;
+  --primary: #1B3D2F;
+  --secondary: #B9E607;
+  --accent: #00AA4F;
   --success: #10B981;
   --danger: #EF4444;
-  --gray-50: #F9FAFB;
-  --gray-100: #F3F4F6;
-  --gray-200: #E5E7EB;
-  --gray-300: #D1D5DB;
-  --gray-400: #9CA3AF;
-  --gray-500: #6B7280;
-  --gray-600: #4B5563;
-  --gray-700: #374151;
-  --gray-800: #1F2937;
-  --gray-900: #111827;
+  --gray-50: #FFFFFF;
+  --gray-100: #F9FAFB;
+  --gray-200: #F3F4F6;
+  --gray-300: #E5E7EB;
+  --gray-400: #D1D5DB;
+  --gray-500: #9CA3AF;
+  --gray-600: #6B7280;
+  --gray-700: #4B5563;
+  --gray-800: #374151;
+  --gray-900: #1F2937;
 
   --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   --font-size-sm: 0.875rem;
@@ -118,6 +119,13 @@ p {
   gap: var(--spacing-md);
   font-size: var(--font-size-xl);
   font-weight: 700;
+  color: white !important;
+  transition: var(--transition);
+}
+
+.nav-logo:hover {
+  color: var(--secondary) !important;
+  transform: scale(1.05);
 }
 
 .logo-icon {
@@ -190,7 +198,8 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, var(--primary) 0%, #5a5a5a 100%);
+  background: linear-gradient(135deg, rgba(27, 61, 47, 0.75) 0%, rgba(0, 170, 79, 0.75) 100%),
+              url('https://images.unsplash.com/photo-1617083958336-5c6f1b2c3c4c?w=1600&h=900&fit=crop') center/cover;
   z-index: -1;
 }
 
