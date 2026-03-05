@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Level Tennis</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <img src="assets/images/logo.svg" alt="Level Tennis" class="logo-icon">
+        <span>Level Tennis</span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="products.html" class="nav-link">Shop</a></li>
+        <li><a href="cart.html" class="nav-link">Cart <span class="cart-count" id="cart-count">0</span></a></li>
+        <li id="nav-auth">
+          <a href="login.html" class="nav-link active">Login</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Login Page -->
+  <div class="auth-page">
+    <div class="auth-container">
+      <h1>Level Tennis</h1>
+      <p class="subtitle">Sign in to your account</p>
+
+      <form id="login-form" class="auth-form">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="john@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required placeholder="••••••••">
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-lg">Sign In</button>
+
+        <p class="auth-link">Don't have an account? <a href="#" id="signup-link">Sign up</a></p>
+      </form>
+
+      <form id="signup-form" class="auth-form" style="display: none;">
+        <div class="form-group">
+          <label for="signup-firstname">First Name</label>
+          <input type="text" id="signup-firstname" name="firstname" required placeholder="John">
+        </div>
+
+        <div class="form-group">
+          <label for="signup-lastname">Last Name</label>
+          <input type="text" id="signup-lastname" name="lastname" required placeholder="Doe">
+        </div>
+
+        <div class="form-group">
+          <label for="signup-email">Email</label>
+          <input type="email" id="signup-email" name="email" required placeholder="john@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="signup-password">Password</label>
+          <input type="password" id="signup-password" name="password" required placeholder="••••••••">
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-lg">Create Account</button>
+
+        <p class="auth-link">Already have an account? <a href="#" id="login-link">Sign in</a></p>
+      </form>
+
+      <div class="demo-users">
+        <p><strong>Demo Accounts:</strong></p>
+        <p>Email: john@example.com | Password: password123</p>
+        <p>Email: jane@example.com | Password: password123</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Level Tennis. All rights reserved.</p>
+      <p>Crafted for learning the Braze SDK</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/utils.js"></script>
+  <script src="js/events.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

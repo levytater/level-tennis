@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile - Level Tennis</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <img src="assets/images/logo.svg" alt="Level Tennis" class="logo-icon">
+        <span>Level Tennis</span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="products.html" class="nav-link">Shop</a></li>
+        <li><a href="cart.html" class="nav-link">Cart <span class="cart-count" id="cart-count">0</span></a></li>
+        <li id="nav-auth">
+          <a href="login.html" class="nav-link">Login</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Profile Page -->
+  <div class="profile-page">
+    <div class="container">
+      <h1>My Profile</h1>
+
+      <div id="not-logged-in" class="not-logged-in">
+        <p>Please <a href="login.html">log in</a> to view your profile</p>
+      </div>
+
+      <div id="profile-content" class="profile-content" style="display: none;">
+        <!-- Personal Info -->
+        <section class="profile-section">
+          <h2>Personal Information</h2>
+          <div class="profile-info">
+            <div class="info-row">
+              <label>Name:</label>
+              <span id="profile-name">-</span>
+            </div>
+            <div class="info-row">
+              <label>Email:</label>
+              <span id="profile-email">-</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Player Preferences -->
+        <section class="profile-section">
+          <h2>Player Preferences</h2>
+          <form id="preferences-form">
+            <div class="form-group">
+              <label for="play-style">Play Style:</label>
+              <select id="play-style" name="play_style">
+                <option value="">Select...</option>
+                <option value="aggressive">Aggressive</option>
+                <option value="defensive">Defensive</option>
+                <option value="all-court">All-Court</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="favorite-brand">Favorite Brand:</label>
+              <select id="favorite-brand" name="favorite_brand">
+                <option value="">Select...</option>
+                <option value="Babolat">Babolat</option>
+                <option value="Head">Head</option>
+                <option value="Wilson">Wilson</option>
+                <option value="Yonex">Yonex</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="skill-level">Skill Level:</label>
+              <select id="skill-level" name="skill_level">
+                <option value="">Select...</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+                <option value="pro">Professional</option>
+              </select>
+            </div>
+
+            <button type="button" class="btn btn-primary" id="save-preferences">Save Preferences</button>
+          </form>
+        </section>
+
+        <!-- Rackets Owned -->
+        <section class="profile-section">
+          <h2>Rackets Owned</h2>
+          <div id="rackets-list" class="rackets-list">
+            <!-- Rackets list loaded by JavaScript -->
+          </div>
+          <button type="button" class="btn btn-secondary" id="add-racket-btn">Add Racket</button>
+
+          <form id="add-racket-form" class="add-racket-form" style="display: none;">
+            <h3>Add New Racket</h3>
+            <div class="form-group">
+              <label for="racket-brand">Brand:</label>
+              <input type="text" id="racket-brand" placeholder="e.g., Babolat">
+            </div>
+            <div class="form-group">
+              <label for="racket-model">Model:</label>
+              <input type="text" id="racket-model" placeholder="e.g., Pure Aero 98">
+            </div>
+            <div class="form-group">
+              <label for="string-tension">String Tension (lbs):</label>
+              <input type="number" id="string-tension" placeholder="e.g., 55" min="40" max="70">
+            </div>
+            <div class="form-group">
+              <label for="purchase-date">Purchase Date:</label>
+              <input type="date" id="purchase-date">
+            </div>
+            <button type="button" class="btn btn-primary" id="submit-racket-btn">Add Racket</button>
+            <button type="button" class="btn btn-secondary" id="cancel-racket-btn">Cancel</button>
+          </form>
+        </section>
+
+        <!-- Logout Button -->
+        <section class="profile-section">
+          <button type="button" class="btn btn-danger" id="logout-btn">Logout</button>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Level Tennis. All rights reserved.</p>
+      <p>Crafted for learning the Braze SDK</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/utils.js"></script>
+  <script src="js/events.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/user-profile.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
