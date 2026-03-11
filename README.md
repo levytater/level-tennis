@@ -183,51 +183,32 @@ When you interact with the site, watch the browser console for event logs:
 
 ## 🔌 Integrating Braze SDK
 
-### Step 1: Add Braze Script
+### Step 1: Braze is already wired
 
-Add this to the `<head>` section of all HTML files (or create a template):
+The Braze Web SDK script and event layer are integrated. All HTML pages load:
 
-```html
-<script src="https://js.appboycdn.com/web-sdk/4.10/braze.min.js"></script>
-```
+- `js/braze-config.js` – your API key and options
+- Braze CDN script (v4.10)
 
-### Step 2: Initialize in `js/app.js`
+Events are sent to Braze only when an API key is set.
 
-Uncomment the initialization code in `js/events.js` `init()` method:
+### Step 2: Enable Braze
+
+Edit `js/braze-config.js` and set your API key:
 
 ```javascript
-braze.initialize('YOUR-API-KEY-HERE', {
-  baseUrl: 'sdk.iad-01.braze.com',  // Replace with your endpoint
-  enableLogging: true  // Disable in production
-});
-
-braze.automaticallyShowInAppMessages();
-braze.openSession();
+window.BRAZE_CONFIG = {
+  apiKey: 'your-braze-api-key-here',  // from Braze Dashboard → API Keys
+  baseUrl: 'sdk.iad-01.braze.com',    // use your region's endpoint
+  enableLogging: true
+};
 ```
 
-### Step 3: Uncomment SDK Calls
+Leave `apiKey` empty to run in console-only mode (events still log, nothing sent to Braze).
 
-In `js/events.js`, uncomment all lines marked with `// Future:` comments. For example:
+### Step 3: Test
 
-**Before:**
-```javascript
-trackProductView(product) {
-  console.log('[EventTracker] Product viewed:', product);
-  // Future: braze.logCustomEvent('ecommerce.product_viewed', {...});
-}
-```
-
-**After:**
-```javascript
-trackProductView(product) {
-  console.log('[EventTracker] Product viewed:', product);
-  braze.logCustomEvent('ecommerce.product_viewed', {...});
-}
-```
-
-### Step 4: Test
-
-1. Add `?brazeLogging=true` to any URL for verbose Braze logging
+1. With `enableLogging: true`, Braze logs in the console. Add `?brazeLogging=true` to any URL for extra verbose Braze logging
 2. Open browser console
 3. Perform actions (login, view products, add to cart)
 4. Check Braze dashboard → User Search → find your test user
@@ -313,8 +294,8 @@ trackProductView(product) {
 
 ## 📖 Documentation Files
 
-- `README.md` - This file
-- Plan file at: `C:\Users\levfe\.claude\plans\imperative-frolicking-moore.md`
+- **README.md** — This file (overview, getting started, learning path).
+- **docs/EVENT_TRACKING_AND_BRAZE_WALKTHROUGH.md** — Deep walkthrough: how events are tracked on the site, how the Braze SDK is wired, and how `js/events.js` ties to `js/products.js`, `js/cart.js`, `js/auth.js`, `js/user-profile.js`, and `js/app.js`.
 
 ## 🎓 Learning Resources
 
